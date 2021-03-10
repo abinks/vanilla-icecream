@@ -1,0 +1,37 @@
+{
+  "name": "abinks.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development --open",
+    "start": "webpack -p && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abinks/abinks.github.io.git"
+  },
+  "author": "Allie Binkley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abinks/abinks.github.io/issues"
+  },
+  "homepage": "https://github.com/abinks/abinks.github.io#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.2",
+    "script-loader": "^0.7.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
