@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/abinks/abinks.github.io/issues"
   },
-  "homepage": "https://abinks.github.io/",
+  "homepage": "https://abinks.github.io/abinks.github.io",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
